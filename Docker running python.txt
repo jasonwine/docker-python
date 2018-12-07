@@ -1,0 +1,8 @@
+docker commands 
+########################################################
+docker build -t friendlyhello . | runs the docker image
+docker image ls | image ID, name/REPOSITORY
+docker run -p 4000:80 friendlyhello | Run the app, mapping your machine’s port 4000 to the container’s published port 80 using -p:
+use this in web browser: http://localhost:4000 
+curl http://localhost:4000 | use to check APP from the command line.
+
